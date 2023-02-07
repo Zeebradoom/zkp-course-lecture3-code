@@ -8,6 +8,7 @@ template NonEqual(){
     inv*(in0 - in1) === 1;
 }
 
+//all elements are unique in the array
 template Distinct(n) {
     signal input in[n];
     component nonEqual[n][n];
